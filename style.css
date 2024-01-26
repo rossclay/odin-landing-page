@@ -1,0 +1,230 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 8px;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #eee;
+    padding: 4px;
+    font-size: 12px;
+    margin: 4px;
+}
+
+button {
+    font-family: "Roboto", sans-serif;
+    border: none;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: #eee;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    align-self: flex-start;
+    color: white;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: #1f2937;
+    color: #eee;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.title-section {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.title-left,
+.title-right {
+    display: flex;
+}
+
+.logo {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    min-height: auto;
+    height: 72px;
+}
+
+.links {
+    display: flex;
+    align-items: space-evenly;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    font-size: 48px;
+    font-weight: bolder;
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+
+.subtext {
+    font-size: 10px;
+    font-weight: 100;
+    width: 400px;
+    text-align: left;
+    display: flex;
+}
+
+.image-placeholder {
+    display: flex;
+    height: 100px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+.card-section {
+    margin: 80px;
+    /* margin-right: 80px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.card-list {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.card-header {
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    color: black;
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #3882F6;
+    border-radius: 8px;
+    width: 150px;
+    /* height: 150px; */
+}
+
+.card-text {
+    text-align: center;
+    display: flex;
+}
+
+.title {
+    background-color: #1f2937;
+    color: #eee;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+/* future note, mess around here width thru border style is all new code */
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    width: 500px;
+    justify-content: center;
+    text-align: center;
+}
+
+.origin {
+    font-size: 16px;
+    font-style: none;
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
+}
+
+.action-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 40px;
+    color: white;
+    justify-content: center;
+    flex-grow: 0;
+    gap: 80px;
+    width: 900px;
+    align-self: center;
+}
+
+.action-button {
+    border: 2px solid white;
+    color: white;
+}
+
+.action-left {
+    color: white;
+}
+
+.action {
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.footer {
+    display: flex;
+    min-height: 72px;
+    background: #1f2937;
+    color: #eee;
+    align-items: center;
+    justify-content: center;
+    justify-self: end;
+    margin-top: 80px;
+}
